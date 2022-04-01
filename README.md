@@ -8,6 +8,14 @@ third step: copy the code below and press "enter";
 
 wait a minite ，will get result in console;
 
+like this:
+
+
+
+https://user-images.githubusercontent.com/102477984/161298388-84791ffe-ea03-4d93-b5bd-03ea52640829.mp4
+
+
+
 
 code: 
 
@@ -19,11 +27,12 @@ function unique(arr) {
 let lastPos = 0;
 function take() {
   setTimeout(() => {
-    window.scrollTo(0, window.scrollY + document.body.clientHeight);
+    window.scrollTo(0, window.scrollY + document.body.clientHeight/2);
     setTimeout(() => {
       const nowPos = window.scrollY;
       if (nowPos <= lastPos) {
         console.log("result", result);
+        return;
       }
       lastPos = nowPos;
       const r = Array.from(
@@ -39,7 +48,7 @@ function take() {
       result = unique(result.concat(r));
       take();
     }, 500);
-  },500);
+  },200);
 }
 
 take();
