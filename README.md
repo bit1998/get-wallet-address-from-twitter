@@ -54,3 +54,7 @@ function take() {
 take();
 
 ```
+
+my wallet address: bit1998.eth
+
+my wallet address: 0x6E46A15f467a80ede92969F7d7Cc623E740176AA
