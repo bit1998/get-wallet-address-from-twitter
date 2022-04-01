@@ -8,7 +8,7 @@ third step: copy the code below and press "enter";
 
 wait a minite ，will get result in console;
 
-if you can not use this ,you can contact me at twitter @0xbit1998
+if you can not use this ,you can contact me at twitter https://twitter.com/0xbit1998
 
 like this:
 
