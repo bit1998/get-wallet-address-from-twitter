@@ -8,6 +8,8 @@ third step: copy the code below and press "enter";
 
 wait a minite ，will get result in console;
 
+if you can not use this ,you can contact me at twitter @0xbit1998
+
 like this:
 
 
@@ -37,7 +39,7 @@ function take() {
       lastPos = nowPos;
       const r = Array.from(
         document.querySelectorAll(
-          ".r-kzbkwu >div:nth-child(2) >div:nth-child(2)"
+          "article.r-kzbkwu >div:nth-child(2) >div:nth-child(2)"
         )
       )
         .map((ele) => {
