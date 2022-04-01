@@ -39,7 +39,7 @@ function take() {
       result = unique(result.concat(r));
       take();
     }, 500);
-  });
+  },500);
 }
 
 take();
